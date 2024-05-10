@@ -50,7 +50,7 @@ int main()
         for (size_t j = 0; j < Table[i].size(); j++)
         {
             std::string pixel = PixelToStr(Table[i][j], palette);
-            output << pixel;    
+            output << pixel;
         }
         output << std::endl;
     }

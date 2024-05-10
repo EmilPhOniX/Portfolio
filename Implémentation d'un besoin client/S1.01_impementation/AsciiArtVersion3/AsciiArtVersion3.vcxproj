@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9054689d-4693-445e-80fd-f6709cf6cff4}</ProjectGuid>
-    <RootNamespace>Version2</RootNamespace>
+    <ProjectGuid>{c255dee9-fe40-49bf-8c67-6216f59cb0e7}</ProjectGuid>
+    <RootNamespace>AsciiArtVersion3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -129,11 +129,11 @@
   <ItemGroup>
     <ClCompile Include="Console.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="PixelToChar.cpp" />
+    <ClCompile Include="PixelToStr.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Console.h" />
-    <ClInclude Include="PixelToChar.h" />
+    <ClInclude Include="PixelToStr.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
